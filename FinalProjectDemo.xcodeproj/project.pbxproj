@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		80A93A191E99C293009D1DA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A93A181E99C293009D1DA1 /* main.m */; };
 		80A93A1C1E99C293009D1DA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A93A1B1E99C293009D1DA1 /* AppDelegate.m */; };
-		80A93A1F1E99C293009D1DA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A93A1E1E99C293009D1DA1 /* ViewController.m */; };
 		80A93A221E99C293009D1DA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80A93A201E99C293009D1DA1 /* Main.storyboard */; };
 		80A93A251E99C293009D1DA1 /* FinalProjectDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80A93A231E99C293009D1DA1 /* FinalProjectDemo.xcdatamodeld */; };
 		80A93A271E99C293009D1DA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80A93A261E99C293009D1DA1 /* Assets.xcassets */; };
 		80A93A2A1E99C293009D1DA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80A93A281E99C293009D1DA1 /* LaunchScreen.storyboard */; };
+		80A93A331E99C307009D1DA1 /* myTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A93A321E99C307009D1DA1 /* myTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +21,13 @@
 		80A93A181E99C293009D1DA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		80A93A1A1E99C293009D1DA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		80A93A1B1E99C293009D1DA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		80A93A1D1E99C293009D1DA1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		80A93A1E1E99C293009D1DA1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		80A93A211E99C293009D1DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80A93A241E99C293009D1DA1 /* FinalProjectDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinalProjectDemo.xcdatamodel; sourceTree = "<group>"; };
 		80A93A261E99C293009D1DA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80A93A291E99C293009D1DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80A93A2B1E99C293009D1DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80A93A311E99C307009D1DA1 /* myTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myTableViewController.h; sourceTree = "<group>"; };
+		80A93A321E99C307009D1DA1 /* myTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,14 +62,14 @@
 			children = (
 				80A93A1A1E99C293009D1DA1 /* AppDelegate.h */,
 				80A93A1B1E99C293009D1DA1 /* AppDelegate.m */,
-				80A93A1D1E99C293009D1DA1 /* ViewController.h */,
-				80A93A1E1E99C293009D1DA1 /* ViewController.m */,
 				80A93A201E99C293009D1DA1 /* Main.storyboard */,
 				80A93A261E99C293009D1DA1 /* Assets.xcassets */,
 				80A93A281E99C293009D1DA1 /* LaunchScreen.storyboard */,
 				80A93A2B1E99C293009D1DA1 /* Info.plist */,
 				80A93A231E99C293009D1DA1 /* FinalProjectDemo.xcdatamodeld */,
 				80A93A171E99C293009D1DA1 /* Supporting Files */,
+				80A93A311E99C307009D1DA1 /* myTableViewController.h */,
+				80A93A321E99C307009D1DA1 /* myTableViewController.m */,
 			);
 			path = FinalProjectDemo;
 			sourceTree = "<group>";
@@ -153,10 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80A93A1F1E99C293009D1DA1 /* ViewController.m in Sources */,
 				80A93A1C1E99C293009D1DA1 /* AppDelegate.m in Sources */,
 				80A93A191E99C293009D1DA1 /* main.m in Sources */,
 				80A93A251E99C293009D1DA1 /* FinalProjectDemo.xcdatamodeld in Sources */,
+				80A93A331E99C307009D1DA1 /* myTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +311,7 @@
 				80A93A301E99C293009D1DA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
